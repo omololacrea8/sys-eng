@@ -24,11 +24,7 @@ body {
   position: absolute;
   width: 18.75rem;
 }  
-.signin{
-  color: #f76806;;
-  margin-top: 20px;
-  font-family: 'Source Sans Pro', sans-serif;
-} 
+ 
 .logo, 
 .signin,
 input,  
@@ -49,10 +45,9 @@ p{
 .signin{
   font: 600 1.8rem "source Sans";
   padding: .17em;
-  background-color: #f76806;;
+  background-color: #f76806;
   width: 97%;
   text-align: center;
-  border-radius: 10px;
   color: white;
 } 
 .signin-row{
@@ -74,8 +69,7 @@ p{
   font-size: 10px;
   margin-top: -10px;
   text-align: center;
-  font-family: "source Sans";
-  
+  font-family: "source Sans"; 
 }
 .signin-tex{
   font-size: 20px;
@@ -101,7 +95,7 @@ input{
   top: 20px;
 }
 input:focus{
-  border-bottom: 2px solid #f76806;;
+  border-bottom: 2px solid #f76806;
   outline: none;
 }
 ::-webkit-input-placeholder {
@@ -150,11 +144,37 @@ button:focus{
 .bold{
   font-weight: 600;
 }
-@media (max-width: 480px) {
+@media (max-width: 600px) {
     .box{
       display: flex;
       justify-content: center;
-      flex-wrap: wrap;
+      flex-wrap: wrap; 
+    }
+    .signin{
+    font: 600 1.8rem "source Sans";
+    padding: .14em;
+    background-color:  #f76806;
+    top: -68px;
+    width: 97.5%;
+    text-align: center;
+    color: white;
+    }
+    .signin-row > .logo{
+      top: -60px;
+    }
+    .signin-text{
+      color: #9da3a5;
+      font-size: 10px;
+      
+      text-align: center;
+      font-family: "source Sans"; 
+    }
+    .signin-tex{
+      font-size: 20px;
+      text-align: center;
+      color: #9da3a5;
+      font-family: "source Sans";
+      margin-top: -50px;
       
     }
   }
